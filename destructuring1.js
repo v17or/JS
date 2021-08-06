@@ -11,4 +11,4 @@ const { nome, idade } = pessoa //Se usado const com chaves irá extrair objetos
 console.log(nome, idade)
 
 const {endereco: {logradouro, numero}} = pessoa
-console.log(logradouro, numero, cep)
+console.log(logradouro, numero)
